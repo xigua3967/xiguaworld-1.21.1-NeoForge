@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "minecraft:glass_pane"
+    },
+    "y": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "xigua_world:material_memory_prism"
+  }
+}

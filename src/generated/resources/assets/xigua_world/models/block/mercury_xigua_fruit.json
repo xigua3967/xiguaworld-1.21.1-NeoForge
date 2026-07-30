@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "xigua_world:block/mercury_xigua_fruit_top",
+    "side": "xigua_world:block/mercury_xigua_fruit_side",
+    "top": "xigua_world:block/mercury_xigua_fruit_top"
+  }
+}

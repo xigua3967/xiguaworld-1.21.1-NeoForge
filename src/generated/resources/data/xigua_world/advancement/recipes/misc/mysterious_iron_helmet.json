@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material_mysterious_iron": {
+      "conditions": {
+        "items": [
+          {
+            "items": "xigua_world:material_mysterious_iron"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "xigua_world:mysterious_iron_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_material_mysterious_iron"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "xigua_world:mysterious_iron_helmet"
+    ]
+  }
+}

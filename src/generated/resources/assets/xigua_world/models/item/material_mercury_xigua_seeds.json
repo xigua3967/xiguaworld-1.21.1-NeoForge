@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xigua_world:item/material_mercury_xigua_seeds"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "north": {
+          "texture": "#stem",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#stem",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "from": [
+        0.9,
+        0,
+        8
+      ],
+      "rotation": {
+        "angle": 45.0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "rescale": true
+      },
+      "shade": false,
+      "to": [
+        15.1,
+        16,
+        8
+      ]
+    },
+    {
+      "faces": {
+        "east": {
+          "texture": "#stem",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#stem",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "from": [
+        8,
+        0,
+        0.9
+      ],
+      "rotation": {
+        "angle": 45.0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "rescale": true
+      },
+      "shade": false,
+      "to": [
+        8,
+        16,
+        15.1
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "xigua_world:block/mercury_xigua_stem_stage3",
+    "stem": "xigua_world:block/mercury_xigua_stem_stage3"
+  }
+}

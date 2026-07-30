@@ -1,0 +1,22 @@
+{
+  "block.xigua_world.mercury_xigua_fruit": "水星西瓜",
+  "block.xigua_world.mercury_xigua_stem": "水星西瓜藤",
+  "block.xigua_world.mysterious_iron_block": "魔铁块",
+  "block.xigua_world.mysterious_ironstone": "魔铁矿石",
+  "entity.xigua_world.mercuryxigua_creature": "水星西瓜",
+  "item.xigua_world.food_mercury_xigua": "水星西瓜",
+  "item.xigua_world.material_memory_prism": "记忆棱镜",
+  "item.xigua_world.material_mercury_xigua_seeds": "水星瓜种",
+  "item.xigua_world.material_mysterious_iron": "魔铁",
+  "item.xigua_world.material_mysterious_iron_ore": "魔铁矿",
+  "item.xigua_world.material_stick_in_leather": "皮革裹柄",
+  "item.xigua_world.material_wool_pad": "羊毛垫片",
+  "item.xigua_world.mysterious_iron_boots": "魔铁靴子",
+  "item.xigua_world.mysterious_iron_chestplate": "魔铁胸甲",
+  "item.xigua_world.mysterious_iron_helmet": "魔铁头盔",
+  "item.xigua_world.mysterious_iron_leggings": "魔铁护腿",
+  "item.xigua_world.mysterious_iron_sword": "魔铁剑",
+  "itemGroup.xiguaworld_tab": "西瓜の世界",
+  "tooltip.xiguaworld.mysterious_sword": "按住§9§n§lshift§r§r§r以获取更多信息!",
+  "tooltip.xiguaworld.mysterious_sword.shift": "使用右键释放技能!"
+}

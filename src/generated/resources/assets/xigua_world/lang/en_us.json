@@ -1,0 +1,22 @@
+{
+  "block.xigua_world.mercury_xigua_fruit": "Mercury Watermelon",
+  "block.xigua_world.mercury_xigua_stem": "Mercury Watermelon Stem",
+  "block.xigua_world.mysterious_iron_block": "Mysterious Iron Block",
+  "block.xigua_world.mysterious_ironstone": "Mysterious Ironstone",
+  "entity.xigua_world.mercuryxigua_creature": "Mercury Watermelon",
+  "item.xigua_world.food_mercury_xigua": "Mercury Watermelon",
+  "item.xigua_world.material_memory_prism": "Memory Prism",
+  "item.xigua_world.material_mercury_xigua_seeds": "Mercury Watermelon Seeds",
+  "item.xigua_world.material_mysterious_iron": "Mysterious Iron",
+  "item.xigua_world.material_mysterious_iron_ore": "Mysterious Iron Ore",
+  "item.xigua_world.material_stick_in_leather": "Leather Wrapped Stick",
+  "item.xigua_world.material_wool_pad": "Wool Pad",
+  "item.xigua_world.mysterious_iron_boots": "Mysterious Iron Boots",
+  "item.xigua_world.mysterious_iron_chestplate": "Mysterious Iron Chestplate",
+  "item.xigua_world.mysterious_iron_helmet": "Mysterious Iron Helmet",
+  "item.xigua_world.mysterious_iron_leggings": "Mysterious Iron Leggings",
+  "item.xigua_world.mysterious_iron_sword": "Mysterious Iron Sword",
+  "itemGroup.xiguaworld_tab": "xigua_world Tab",
+  "tooltip.xiguaworld.mysterious_sword": "Hold §9§n§lshift§r§r§r for more info!",
+  "tooltip.xiguaworld.mysterious_sword.shift": "Use the right mouse button to release the skill!"
+}

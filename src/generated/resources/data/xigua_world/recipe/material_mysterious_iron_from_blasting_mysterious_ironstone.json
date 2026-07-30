@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "mysterious_iron",
+  "ingredient": {
+    "item": "xigua_world:mysterious_ironstone"
+  },
+  "result": {
+    "count": 1,
+    "id": "xigua_world:material_mysterious_iron"
+  }
+}

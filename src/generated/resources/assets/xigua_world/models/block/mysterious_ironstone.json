@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "xigua_world:block/mysterious_ironstone"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "minecraft:taiga",
+  "spawners": {
+    "type": "xigua_world:mercuryxigua_creature",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 10
+  }
+}

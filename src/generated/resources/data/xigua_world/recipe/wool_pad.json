@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    " x",
+    "x "
+  ],
+  "result": {
+    "count": 1,
+    "id": "xigua_world:material_wool_pad"
+  }
+}

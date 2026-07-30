@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "xigua_world:item/mysterious_iron_sword"
+  }
+}

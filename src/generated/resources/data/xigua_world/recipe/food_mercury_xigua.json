@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "xigua_world:mercury_xigua_fruit"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "xigua_world:food_mercury_xigua"
+  }
+}

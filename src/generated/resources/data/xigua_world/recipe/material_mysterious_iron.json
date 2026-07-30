@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "xigua_world:mysterious_iron_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "xigua_world:material_mysterious_iron"
+  }
+}

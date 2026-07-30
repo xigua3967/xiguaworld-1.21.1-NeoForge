@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "x": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "x",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "xigua_world:material_stick_in_leather"
+  }
+}

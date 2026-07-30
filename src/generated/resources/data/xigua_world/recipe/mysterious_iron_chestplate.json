@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "xigua_world:material_mysterious_iron"
+    },
+    "y": {
+      "item": "xigua_world:material_wool_pad"
+    }
+  },
+  "pattern": [
+    "xyx",
+    "xxx",
+    "xxx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "xigua_world:mysterious_iron_chestplate"
+  }
+}

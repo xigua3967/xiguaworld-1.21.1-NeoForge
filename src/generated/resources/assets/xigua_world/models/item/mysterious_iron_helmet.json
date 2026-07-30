@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "xigua_world:item/mysterious_iron_helmet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "xigua_world:model_predicate": 1.0
+      },
+      "model": "xigua_world:item/models/armor/mysterious_iron_helmet"
+    }
+  ]
+}
