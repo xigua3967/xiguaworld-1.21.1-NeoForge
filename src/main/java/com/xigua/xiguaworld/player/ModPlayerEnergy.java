@@ -1,13 +1,17 @@
 package com.xigua.xiguaworld.player;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.player.Player;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.capabilities.EntityCapability;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import javax.annotation.Nullable;
 
 // 定义模组玩家气力/耐力系统的主类
+@EventBusSubscriber(modid = "xigua_world")
 public class ModPlayerEnergy {
     
     // 定义气力能力接口，描述气力系统应提供的行为
@@ -45,6 +49,11 @@ public class ModPlayerEnergy {
         private double currentEndurance;
         // 存储气力最大值，使用 double 支持小数
         private double maxEndurance;
+
+        // 无参构造函数（AttachmentType 需要）
+        public PlayerEndurance() {
+            this(100.0);
+        }
 
         // 构造函数，创建气力实例时初始化最大值和当前值
         public PlayerEndurance(double maxEndurance) {
@@ -103,6 +112,41 @@ public class ModPlayerEnergy {
             // 如果 amount < 0，设为 0；如果 amount > maxEndurance，设为 maxEndurance
             this.currentEndurance = Math.clamp(amount, 0, maxEndurance);
         }
+
+        // ==================== NBT 序列化/反序列化方法 ====================
+
+        /**
+         * 将 PlayerEndurance 数据序列化为 CompoundTag
+         * 用于保存到玩家 NBT 数据中
+         * 
+         * @return 包含气力数据的 CompoundTag
+         */
+        public CompoundTag serializeNBT() {
+            CompoundTag tag = new CompoundTag();
+            tag.putDouble("currentEndurance", this.currentEndurance);
+            tag.putDouble("maxEndurance", this.maxEndurance);
+            return tag;
+        }
+
+        /**
+         * 从 CompoundTag 反序列化加载 PlayerEndurance 数据
+         * 用于从玩家 NBT 数据中加载
+         * 
+         * @param tag 包含气力数据的 CompoundTag
+         */
+        public void deserializeNBT(CompoundTag tag) {
+            if (tag.contains("currentEndurance")) {
+                this.currentEndurance = tag.getDouble("currentEndurance");
+            }
+            if (tag.contains("maxEndurance")) {
+                this.maxEndurance = tag.getDouble("maxEndurance");
+            }
+        }
+    }
+    
+    // 注册方法，供主类调用
+    public static void register(IEventBus modEventBus) {
+        modEventBus.register(ModPlayerEnergy.class);
     }
     
     // 使用 SubscribeEvent 注解标记能力注册事件处理方法

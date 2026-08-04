@@ -1,8 +1,11 @@
 package com.xigua.xiguaworld.player;
 
 import net.minecraft.resources.ResourceLocation;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.capabilities.EntityCapability;
 
+@EventBusSubscriber(modid = "xigua_world")
 public class ModPlayerGrade {
     public interface Grade {
         int getCurrentGrade();
@@ -38,6 +41,8 @@ public class ModPlayerGrade {
         public void setCurrentGrade(int grade) {
             this.currentGrade = Math.clamp(grade, 0, maxGrade);
         }
+    }
+    public static void register(IEventBus modEventBus) {
     }
     
 }
