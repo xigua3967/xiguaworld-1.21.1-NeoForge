@@ -35,6 +35,29 @@ public class ModEnUsLangProvider extends LanguageProvider {
         add("tooltip.xiguaworld.mysterious_sword.shift","Use the right mouse button to release the skill!");
 
         add("itemGroup.xiguaworld_tab", "xigua_world Tab");
+        add("key.xigua_world.open_skill_gui", "Open Skill GUI");
+        add("gui.xigua_world.skill.title", "Skill System");
+        add("gui.xigua_world.skill.tab.info", "Individual Information");
+        add("gui.xigua_world.skill.tab.body", "Body Skills");
+        add("gui.xigua_world.skill.tab.magic", "Magic");
+        add("gui.xigua_world.skill.tab.blessing", "Blessing");
+        add("gui.xigua_world.skill.name", "Name:");
+        add("gui.xigua_world.skill.race", "Race:");
+        add("gui.xigua_world.skill.race.human", "Human");
+        add("gui.xigua_world.skill.body.strength", "Strength:");
+        add("gui.xigua_world.skill.body.endurance", "Endurance:");
+        add("gui.xigua_world.skill.body.agility", "Agility:");
+        add("gui.xigua_world.skill.body.dexterity", "Dexterity:");
+        add("gui.xigua_world.skill.magic.total_grade", "Total Grade:");
+        add("gui.xigua_world.skill.magic.sub_grade", "Sub Grade:");
+        add("gui.xigua_world.skill.magic.sword_grade", "Sword Grade:");
+        add("gui.xigua_world.skill.magic.magic_grade", "Magic Grade:");
+        add("gui.xigua_world.skill.placeholder", "Coming Soon...");
+        add("key.xigua_world.open_skill_gui", "Skill System");
+        add("key.xigua_world.activate_skill_1", "Activate Skill Slot 1");
+        add("key.xigua_world.activate_skill_2", "Activate Skill Slot 2");
+        add("key.xigua_world.activate_skill_3", "Activate Skill Slot 3");
+        add("key.xigua_world.activate_skill_4", "Activate Skill Slot 4");
     }
 /*"item.xigua_world.food.mercury_xigua": "Mercury's Watermelon",
   "item.xigua_world.material.mysterious_iron_ore": "Mysterious Iron Ore",

@@ -1,9 +1,12 @@
 package com.xigua.xiguaworld.player;
 
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EntityType;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.capabilities.EntityCapability;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 
 @EventBusSubscriber(modid = "xigua_world")
 public class ModPlayerGrade {
@@ -43,6 +46,12 @@ public class ModPlayerGrade {
         }
     }
     public static void register(IEventBus modEventBus) {
+        modEventBus.register(ModPlayerGrade.class);
+    }
+    @SubscribeEvent
+    public static void onCapabilityEvent(RegisterCapabilitiesEvent  event) {
+        event.registerEntity(ENTITY, EntityType.PLAYER,
+                (player, context) -> new PlayerGrade());
     }
     
 }

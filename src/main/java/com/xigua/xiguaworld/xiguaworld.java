@@ -6,10 +6,8 @@ import com.xigua.xiguaworld.entity.ModEntityAttributes;
 import com.xigua.xiguaworld.entity.ModEntityTypes;
 import com.xigua.xiguaworld.item.ModCreativeModeTabs;
 import com.xigua.xiguaworld.item.ModItems;
-import com.xigua.xiguaworld.player.ModPlayerEnergy;
-import com.xigua.xiguaworld.player.ModPlayerGrade;
-import com.xigua.xiguaworld.player.ModPlayerSwordGrade;
-import com.xigua.xiguaworld.player.ModPlayermagicGrade;
+import com.xigua.xiguaworld.player.*;
+import com.xigua.xiguaworld.skills.ModSkills;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -85,6 +83,10 @@ public class xiguaworld {
         ModPlayerGrade.register(modEventBus);
         ModPlayermagicGrade.register(modEventBus);
         ModPlayerSwordGrade.register(modEventBus);
+        ModPlayerSkill.register(modEventBus);
+        
+        // 注册所有技能
+        ModSkills.register();
 
         // 注册自己，用于接收服务器事件和其他游戏事件
         // 注意，这仅当您希望此类（xiguaworld）直接响应事件时才需要。

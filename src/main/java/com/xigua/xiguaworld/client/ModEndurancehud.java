@@ -82,7 +82,7 @@ public class ModEndurancehud {
         int screenWidth = minecraft.getWindow().getGuiScaledWidth();
         int screenHeight = minecraft.getWindow().getGuiScaledHeight();
         int x = (screenWidth - barWidth) / 2;
-        int y = screenHeight - 47;
+        int y = screenHeight - 49;
         
         // 渲染背景 - 使用纹理的上半部分 (v=0)
         guiGraphics.blit(
